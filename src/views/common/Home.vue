@@ -6,28 +6,27 @@
                 <v-row >
                         <TheHeader>
                         </TheHeader>
-                </v-row>       
+                </v-row>
                 <v-row class="item">
                         <Homepage>
-                        </Homepage> 
-                </v-row>   
+                        </Homepage>
+                </v-row>
         </v-col>
     </v-layout>
 </template>
 
 <script>
-  import TheMenu from './TheMenu.vue'
-  import TheHeader from './TheHeader.vue'
-  import Homepage from './Homepage.vue'
+import TheMenu from './TheMenu.vue'
+import TheHeader from './TheHeader.vue'
+import Homepage from './Homepage.vue'
 
-
-  export default {
-      components: {
-          TheMenu,
-          TheHeader,
-          Homepage,
-      },
+export default {
+  components: {
+    TheMenu,
+    TheHeader,
+    Homepage
   }
+}
 </script>
 
 <style >

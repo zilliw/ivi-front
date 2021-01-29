@@ -8,27 +8,24 @@
     </div>
 </template>
 
-
 <script>
 import Login from './Login'
 import ForgotPassword from './ForgotPassword'
 import TheFooter from '../common/footer/TheFooter'
 
-
-
 export default {
-    name: 'LoginHome',
-    components: {
-      Login,
-      TheFooter,
-      ForgotPassword
-      },
+  name: 'LoginHome',
+  components: {
+    Login,
+    TheFooter,
+    ForgotPassword
+  },
 
-    computed: {
-      LoginComponent () {
-        return this.$route.name
-      }
+  computed: {
+    LoginComponent () {
+      return this.$route.name
     }
+  }
 }
 
 </script>

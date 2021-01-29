@@ -15,7 +15,7 @@
                       dark
                       flat
                     >
-                    <v-toolbar-title>{{ $t('login.title') }}</v-toolbar-title>                  
+                    <v-toolbar-title>{{ $t('login.title') }}</v-toolbar-title>
                       <v-spacer></v-spacer>
                     </v-toolbar>
 
@@ -37,10 +37,9 @@
                               ></v-text-field>
                           </v-form>
                       </v-card-text>
-                      
                   <v-card-actions class="justify-center" >
-                      <router-link  to="/home"> 
-                          <v-btn  color="#1E75BA" dark>Connexion</v-btn></router-link>
+                      <router-link  to="/home">
+                          <v-btn  color="#1E75BA" dark>{{ $t('login.form.connexion') }}</v-btn></router-link>
                   </v-card-actions>
                   <router-link  class="rl" to="/forgot-password">
                   <span>
@@ -48,11 +47,9 @@
                   </span>
                   </router-link>
 
-
                 </v-card>
 
             </v-col>
-            
         </v-row>
 
     </v-container>

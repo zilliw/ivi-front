@@ -2,6 +2,10 @@
   "login.title": "Bienvenue sur EVe",  
   "login.form.username": "Identifiant*",
   "login.form.password": "Mot de passe*",
-  "login.form.connexion": "Connexions",
-  "login.form.forgot-password": "Mot de passe oublié ?"
+  "login.form.connexion": "Connexion",
+  "login.form.forgot-password": "Mot de passe oublié",
+  "login.form.back": "Retour",
+  "login.form.reset-password": "Réinitialiser mon mot de passe",
+  "footer.cgu": "CGU",
+  "footer.legal": "Mentions légales"
 }
