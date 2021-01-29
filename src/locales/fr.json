@@ -2,5 +2,6 @@
   "login.title": "Bienvenue sur EVe",  
   "login.form.username": "Identifiant*",
   "login.form.password": "Mot de passe*",
+  "login.form.connexion": "Connexions",
   "login.form.forgot-password": "Mot de passe oublié ?"
 }
