@@ -1,5 +1,5 @@
 <template>
-    <v-app-bar  short flat >
+    <v-app-bar  short flat color="#1E75BA" >
     <v-spacer></v-spacer>
     <span class="span"> Bonjour William </span>
           <v-menu
@@ -8,12 +8,12 @@
           >
               <template v-slot:activator="{ on, attrs }">
               <v-btn
-                color="#1E75BA"
+                dark
                 icon
                 v-bind="attrs"
                 v-on="on"
               >
-                <v-icon color="#1E75BA">mdi-account</v-icon>
+                <v-icon>mdi-account</v-icon>
 <!-- mettre un v-for pour récupérer l'icone -->
               </v-btn>
               </template>
@@ -47,7 +47,7 @@ export default {
 <style scoped>
 
   span {
-    color:#1E75BA;
+    color:white;
     padding-right: 6px;
   }
 

@@ -3,7 +3,7 @@
       <v-navigation-drawer
         permanent
         expand-on-hover
-        class="menu"
+        color="#fafbfc"
       >
             <v-list dark>
                           <v-img class="logo" max-height="125" contain src="../../../public/images/logo_bs_ocea.svg">
@@ -79,9 +79,8 @@ export default {
 
     .menu {
       font-size: 12px;
-      border: blue;
+      border: #1E75BA;
     }
-
     .logo {
             padding-left: 10px;
             padding-right: 10px;
