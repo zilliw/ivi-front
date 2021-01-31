@@ -1,5 +1,5 @@
 <template>
-    <v-app-bar  short flat color="#1E75BA" >
+    <v-app-bar  short flat >
     <v-spacer></v-spacer>
     <span class="span"> Bonjour William </span>
           <v-menu
@@ -8,14 +8,13 @@
           >
               <template v-slot:activator="{ on, attrs }">
               <v-btn
-                dark
+                color="#1E75BA"
                 icon
                 v-bind="attrs"
                 v-on="on"
               >
-                <v-icon>mdi-account</v-icon>
+                <v-icon color="#1E75BA">mdi-account</v-icon>
 <!-- mettre un v-for pour récupérer l'icone -->
-                
               </v-btn>
               </template>
 
@@ -30,29 +29,25 @@
           </v-menu>
 
     </v-app-bar>
-    
 </template>
 
 <script>
 
-  export default {
-      name: 'TheMenuHeader',
-      components: {
-
-      },
-    data: () => ({
-      userProfiles: [
-        { title: 'Mon profil'},
-        { title: 'Se déconnecter'}
-      ],
-    })
-  }
+export default {
+  name: 'TheMenuHeader',
+  data: () => ({
+    userProfiles: [
+      { title: 'Mon profil' },
+      { title: 'Se déconnecter' }
+    ]
+  })
+}
 </script>
 
 <style scoped>
 
   span {
-    color:white;
+    color:#1E75BA;
     padding-right: 6px;
   }
 

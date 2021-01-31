@@ -9,14 +9,14 @@
 </template>
 
 <script>
-import Login from './Login'
+import LoginForm from './LoginForm'
 import ForgotPassword from './ForgotPassword'
 import TheFooter from '../common/footer/TheFooter'
 
 export default {
   name: 'LoginHome',
   components: {
-    Login,
+    LoginForm,
     TheFooter,
     ForgotPassword
   },

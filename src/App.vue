@@ -1,11 +1,8 @@
 <template>
         <v-app>
-            
             <router-view class="main"/>
-            
         </v-app>
 </template>
-
 
 <style scoped>
 
@@ -26,8 +23,5 @@
         font-size: 18px;
 
     }
-
-
-
 
 </style>

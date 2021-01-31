@@ -3,7 +3,7 @@
       <v-navigation-drawer
         permanent
         expand-on-hover
-        class="menu" 
+        class="menu"
       >
             <v-list dark>
                           <v-img class="logo" max-height="125" contain src="../../../public/images/logo_bs_ocea.svg">
@@ -25,10 +25,9 @@
                       <v-list-item-title v-text="menu.title" class="menu"></v-list-item-title>
                     </v-list-item-content>
                   </template>
-          
                   <v-list-item
                     v-for="child in menu.items"
-                    :key="child.title" 
+                    :key="child.title"
                             >
                     <v-list-item-content>
                       <v-list-item-title v-text="child.title" class="menu"></v-list-item-title>
@@ -41,10 +40,7 @@
 </template>
 
 <script>
-  export default {
-    components: {
-  },
-
+export default {
   data: () => ({
     menus: [
       {
@@ -53,16 +49,16 @@
         items: [
           { title: 'Organisation' },
           { title: 'Pools' },
-          { title: 'Stations' },
-        ],
+          { title: 'Stations' }
+        ]
       },
       {
         action: 'mdi-file-document-edit',
         title: 'Contrat',
         items: [
           { title: 'Contrats' },
-          { title: 'Offres' },
-        ],
+          { title: 'Offres' }
+        ]
       },
       {
         action: 'mdi-connection',
@@ -71,12 +67,12 @@
           { title: 'EsaXXX' },
           { title: 'ProXXXX' },
           { title: 'OPCI' },
-          { title: 'Salesforce' },
-        ],
-      },
-    ],
-  }),
-  }
+          { title: 'Salesforce' }
+        ]
+      }
+    ]
+  })
+}
 </script>
 
 <style scoped>
