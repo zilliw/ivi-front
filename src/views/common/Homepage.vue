@@ -3,13 +3,12 @@
         <v-row class="flex-item">
           <v-col class="flex-card">
             <v-card
-              color="#1E75BA"
-              dark
+              color="#fafbfc"
             >
               <v-card-title >
                 Bornes installés
               </v-card-title>
-              <v-card-subtitle>Listen to your f.</v-card-subtitle>
+              <v-card-subtitle>Listen to your.</v-card-subtitle>
               <v-card-actions>
                 <v-btn text>
                   Listen Now
@@ -17,8 +16,7 @@
               </v-card-actions>
             </v-card>
             <v-card
-              color="#1E75BA"
-              dark
+              color="#fafbfc"
             >
               <v-card-title >
                 Unlimited music now
@@ -62,6 +60,8 @@
 .flex-card {
   display:flex;
   flex-direction: row;
+  color:blue;
+  align-items: center;
 }
 
 </style>

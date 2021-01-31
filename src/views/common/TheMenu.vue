@@ -47,9 +47,9 @@ export default {
         action: 'mdi-car-electric',
         title: 'Référentiel Patrimoine',
         items: [
-          { title: 'Organisation' },
-          { title: 'Pools' },
-          { title: 'Stations' }
+          { title: 'Patrimoine installé' },
+          { title: 'Patrimoine contruit' },
+          { title: 'Equipements' }
         ]
       },
       {
@@ -82,8 +82,8 @@ export default {
       border: #1E75BA;
     }
     .logo {
-            padding-left: 10px;
-            padding-right: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
     }
 
 </style>
